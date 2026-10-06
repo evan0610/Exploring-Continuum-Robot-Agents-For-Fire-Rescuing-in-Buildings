@@ -6,7 +6,7 @@ English research homepage with a Traditional Chinese summary. Structure: title/r
 
 ## Before a formal research release
 
-Supply confirmed authors and affiliations, final project name, paper URL / BibTeX if published, actual robot code URL if released, and any approved quantitative result tables. The website deliberately omits absent fields rather than showing fake author or paper placeholders.
+Supply confirmed authors and affiliations, paper URL / BibTeX if published, actual robot code URL if released, and any approved quantitative result tables. The website deliberately omits absent fields rather than showing fake author or paper placeholders.
 
 ## Evidence boundaries
 
