@@ -15,6 +15,8 @@ refs = [v for v in p.refs if not v.startswith(("https:", "http:", "#", "mailto:"
 js = (ROOT / "assets/js/main.js").read_text(encoding="utf-8")
 refs += ["assets/videos/" + x for x in re.findall(r"demo-\d+\.mp4", js)]
 refs += ["assets/images/" + x for x in re.findall(r"frame-\d+\.png", js)]
+readme = (ROOT / "README.md").read_text(encoding="utf-8")
+refs += [x for x in re.findall(r'(?:\]\(|(?:src|href)=")([^\s)"\n]+)', readme) if not x.startswith(("https:", "http:", "#"))]
 missing = [x for x in refs if not (ROOT / x).is_file()]
 if missing:
     raise SystemExit("Missing assets: " + ", ".join(missing))

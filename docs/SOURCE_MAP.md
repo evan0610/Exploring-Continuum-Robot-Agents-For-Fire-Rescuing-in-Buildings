@@ -44,3 +44,17 @@ Nerfies: https://nerfies.github.io/
 CLIPort: https://cliport.github.io/
 
 Only page organization was referenced. No HTML/CSS from those sites was copied.
+
+## PPT-led update and award recognition
+
+The main narrative now follows slides 2–3 (motivation), 4–5 and 9 (hardware), 6–8 (intelligence layers), and 10–13 (setups and task sequences). Poster diagrams are supplementary.
+
+Additional assets: traditional-fire-hose.jpg = image5.jpeg (slide 5); robobrain-foundation.png = image9.png (slide 7, related research); endovla-foundation.png = image10.png (slide 8, related research); rigid-spray.png = image13.png (slide 9).
+
+Award verified on 2026-10-07: Third Prize, Innovation, Mathematics and Physics / Mechanics and Control Systems. Official listed title: Exploring Continuum Robot Agents for Firefighting in Buildings. Sources:
+
+- https://research.cuhk.edu.hk/en/prizes/third-prize-of-the-12th-hong-kong-university-student-innovation-a/
+- https://kto.cuhk.edu.hk/en/news-events/announcements/event-highlight-cuhk-wins-19-awards-at-the-12th-hong-kong-university-student-innovation-and-entrepreneurship-competition-30-may-2026
+- https://www.cpr.cuhk.edu.hk/wp-content/uploads/newscentre/pressrelease/Appendix_eng-2.pdf (page 2)
+
+The research record lists May 2026; the event report gives 30 May 2026 for the ceremony. The project-page title preserves the user's chosen wording.

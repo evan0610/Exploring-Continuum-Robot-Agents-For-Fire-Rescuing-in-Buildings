@@ -2,7 +2,7 @@
 
 ## Page structure
 
-English research homepage with a Traditional Chinese summary. Structure: title/resources → concept teaser → abstract → motivation → architecture → hardware → scenario videos → evidence/status → poster → related work.
+English research homepage with a Traditional Chinese summary. Structure: title and award → prototype photographs → overview → PPT motivation → dual-brain explanation → hardware → building mock-ups → annotated video sequences → scope → official recognition → supplementary resources.
 
 ## Before a formal research release
 
@@ -21,3 +21,7 @@ Put MP4 files in `assets/videos/`, matching poster frames in `assets/images/`, a
 ## Deployment
 
 Static assets use relative URLs, supporting both a user Pages site and repository Pages subpaths. No analytics or external font dependency. Source videos remain local; the original YouTube link is an optional resource.
+
+## Award sources
+
+The CUHK research prize record and the official event report / attached award list support the Third Prize claim. Keep the official listed project wording in the recognition section alongside the chosen presentation title.
