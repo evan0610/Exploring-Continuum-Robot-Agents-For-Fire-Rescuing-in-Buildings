@@ -40,6 +40,15 @@ The presentation introduces two cooperating layers:
 
 A task begins with observation and target localization. The system then selects and executes an action, observes the resulting scene, and adjusts the next action. For delivery, the PPT describes coordinating extension, delivery, and withdrawal in order.
 
+### Project system design
+
+![Proposed continuum rescue system](assets/images/rescue-system.svg)
+
+Camera observations and task instructions feed scene understanding, action selection, and robot execution. A new observation informs the next action. This diagram describes the proposed system architecture; scene memory and longer rescue planning are extensions rather than measured results of the miniature demonstrations.
+
+<details>
+<summary>Research foundations: RoboBrain 2.0 and EndoVLA</summary>
+
 ### Understanding-layer research foundation
 
 ![RoboBrain 2.0 foundation figure from slide 7](assets/images/robobrain-foundation.png)
@@ -55,6 +64,9 @@ Reference: [RoboBrain 2.0 Technical Report](https://arxiv.org/abs/2507.02029).
 The **EndoVLA** examples motivate a vision-language-action formulation for a flexible instrument. In the rescue setting, the presentation extends that direction to target-centering, tip motion, and ordered tool operation.
 
 Reference: [EndoVLA: Dual-Phase Vision-Language-Action Model for Autonomous Tracking in Endoscopy](https://arxiv.org/abs/2505.15206).
+
+
+</details>
 
 ## 3. Continuum embodiment and working channels
 

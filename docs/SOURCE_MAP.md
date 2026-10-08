@@ -58,3 +58,7 @@ Award verified on 2026-10-07: Third Prize, Innovation, Mathematics and Physics /
 - https://www.cpr.cuhk.edu.hk/wp-content/uploads/newscentre/pressrelease/Appendix_eng-2.pdf (page 2)
 
 The research record lists May 2026; the event report gives 30 May 2026 for the ceremony. The project-page title preserves the user's chosen wording.
+
+## Project system diagram
+
+`assets/images/rescue-system.svg` is an original editable schematic based on the PPT's image-understanding and continuum-action descriptions (slides 6–8) and task workflows (slides 11–13). It depicts proposed architecture and does not claim implementation / benchmark validation. The mobile vertical flow is semantically equivalent.

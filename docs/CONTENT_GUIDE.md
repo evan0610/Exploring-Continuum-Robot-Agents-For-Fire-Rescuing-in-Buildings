@@ -25,3 +25,7 @@ Static assets use relative URLs, supporting both a user Pages site and repositor
 ## Award sources
 
 The CUHK research prize record and the official event report / attached award list support the Third Prize claim. Keep the official listed project wording in the recognition section alongside the chosen presentation title.
+
+## Visual redesign
+
+The homepage leads with the research problem and actual demonstration media, followed by staged demonstrations, the project's proposed system diagram, robot hardware, setups, scope, recognition, and resources. Avoid PPT / slide references in main-facing copy. Keep third-party research figures in the expandable research-foundations block. Demo pairs play independently; never imply synchronization. The mobile system diagram uses an equivalent vertical flow for legibility.
