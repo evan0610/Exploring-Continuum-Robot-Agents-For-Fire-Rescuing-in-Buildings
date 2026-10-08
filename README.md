@@ -2,7 +2,7 @@
 
 **Embodied intelligence for flexible access, visual inspection, and local intervention in buildings.**
 
-[Project page](https://evan0610.github.io/Exploring-Continuum-Robot-Agents-For-Fire-Rescuing-in-Buildings/) · [Demonstration video](https://youtu.be/r7klSNvfRIo) · [Research poster](assets/documents/research-poster.pdf)
+[English project page](https://evan0610.github.io/Exploring-Continuum-Robot-Agents-For-Fire-Rescuing-in-Buildings/) · [中文主页](https://evan0610.github.io/Exploring-Continuum-Robot-Agents-For-Fire-Rescuing-in-Buildings/index-zh.html) · [Demonstration video](https://youtu.be/r7klSNvfRIo) · [Research poster](assets/documents/research-poster.pdf)
 
 ## Recognition · 三等奖
 
@@ -123,13 +123,13 @@ Suppression: [Robot view](assets/videos/demo-03.mp4) · [External view](assets/v
 3. Locate the interior target and perform local spraying.
 4. Switch to mask delivery near the rescue target.
 
-This scenario combines access planning with a change of working location and a later change of tool operation. Exterior: [Robot view](assets/videos/demo-07.mp4) · [External view](assets/videos/demo-08.mp4). Interior / delivery: [Robot view](assets/videos/demo-09.mp4) · [External view](assets/videos/demo-10.mp4).
+This scenario combines access planning with a change of working location and a later change of tool operation. Exterior: [Robot view](assets/videos/demo-10.mp4) · [External view](assets/videos/demo-07.mp4). Interior / delivery: [Robot view](assets/videos/demo-08.mp4) · [External view](assets/videos/demo-09.mp4).
 
 [Watch all scenarios on the interactive project page](https://evan0610.github.io/Exploring-Continuum-Robot-Agents-For-Fire-Rescuing-in-Buildings/#demos).
 
 ## Current scope
 
-This repository contains the project homepage, explanatory figures, and the 10 original presentation clips. The supplied material establishes prototype demonstrations in miniature scenes and outlines the intended system architecture. Controlled trial counts, benchmark tables, real-fire deployment evidence, and robot training / control source code are not included.
+This repository contains the project homepage, explanatory figures, and the 10 original presentation clips. The supplied material establishes prototype demonstrations in miniature scenes and outlines the intended system architecture. The clips do not establish live-fire suppression, clinical oxygen delivery, or quantitative autonomy. Paired views have different durations and are not synchronized. Controlled trial counts, benchmark tables, real-fire deployment evidence, and robot training / control source code are not included.
 
 ## Website development
 

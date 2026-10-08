@@ -27,10 +27,10 @@
 | demo-04.mp4 | media4.mp4 | 12 | Residential suppression, external view |
 | demo-05.mp4 | media5.mp4 | 12 | Residential delivery, robot view |
 | demo-06.mp4 | media6.mp4 | 12 | Residential delivery, external view |
-| demo-07.mp4 | media7.mp4 | 13 | Factory exterior, robot view |
-| demo-08.mp4 | media8.mp4 | 13 | Factory exterior, external view |
-| demo-09.mp4 | media9.mp4 | 13 | Factory interior / delivery, robot view |
-| demo-10.mp4 | media10.mp4 | 13 | Factory interior / delivery, external view |
+| demo-07.mp4 | media7.mp4 | 13 | Factory exterior, external view |
+| demo-08.mp4 | media8.mp4 | 13 | Factory interior / delivery, robot view |
+| demo-09.mp4 | media9.mp4 | 13 | Factory interior / delivery, external view |
+| demo-10.mp4 | media10.mp4 | 13 | Factory exterior, robot view |
 
 Viewpoint labels follow slide relationships and paired poster frames. Clips are unmodified embedded files. Scenario text paraphrases slides 10–13 and is not a measurement of autonomy or performance.
 
@@ -62,3 +62,7 @@ The research record lists May 2026; the event report gives 30 May 2026 for the c
 ## Project system diagram
 
 `assets/images/rescue-system.svg` is an original editable schematic based on the PPT's image-understanding and continuum-action descriptions (slides 6–8) and task workflows (slides 11–13). It depicts proposed architecture and does not claim implementation / benchmark validation. The mobile vertical flow is semantically equivalent.
+
+## Corrected factory pairing
+
+Rechecked the video contents, native dimensions, and slide 13 shape positions. The left exterior pair is robot media10 (x=5078933) and external media7 (x=6909511); the right interior pair is robot media8 (x=8423687) and external media9 (x=10247766). Original picture associations are media10→image33, media7→image30, media8→image31, and media9→image32. The earlier website incorrectly paired sequential media IDs. Camera clips are 480×480 and external clips are 272×480; appearance and slide labels, rather than dimensions alone, establish viewpoint identity. Clips are independent and have unequal durations.

@@ -10,7 +10,9 @@ class Links(HTMLParser):
         for key, value in attrs:
             if key in ("src", "href", "poster") and value:
                 self.refs.append(value)
-p = Links(); p.feed((ROOT / "index.html").read_text(encoding="utf-8"))
+p = Links()
+for page in ("index.html", "index-zh.html"):
+    p.feed((ROOT / page).read_text(encoding="utf-8"))
 refs = [v for v in p.refs if not v.startswith(("https:", "http:", "#", "mailto:"))]
 js = (ROOT / "assets/js/main.js").read_text(encoding="utf-8")
 refs += ["assets/videos/" + x for x in re.findall(r"demo-\d+\.mp4", js)]
