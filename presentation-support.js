@@ -1,1 +1,11 @@
-document.querySelectorAll('video').forEach((v,n)=>{const m=document.createElement('p');m.className='video-status';m.setAttribute('role','status');m.textContent='点击播放视频。';v.insertAdjacentElement('afterend',m);v.addEventListener('loadedmetadata',()=>{m.textContent='片长 '+v.duration.toFixed(1)+' 秒 · 可使用播放器时间轴跳转。'});v.addEventListener('error',()=>{m.dataset.error='true';m.textContent='视频未能加载（网络或编码错误）。可尝试直接打开视频文件。'});v.addEventListener('playing',()=>{m.textContent='正在播放 · 演示不替代完整试验统计。'});const src=v.querySelector('source')?.getAttribute('src')||v.getAttribute('src');if(src){const a=document.createElement('a');a.href=src;a.textContent='直接打开本段视频 ↗';a.className='media-caption';a.target='_blank';a.rel='noopener noreferrer';m.insertAdjacentElement('afterend',a)}});const input=document.querySelector('#matrix-filter');if(input)input.addEventListener('input',()=>{const q=input.value.toLowerCase();document.querySelectorAll('#matrix tbody tr').forEach(r=>r.hidden=!r.textContent.toLowerCase().includes(q))});
+(()=>{
+const zh=document.documentElement.lang.toLowerCase().startsWith('zh');
+document.querySelectorAll('video').forEach(video=>{
+ const status=document.createElement('p');status.className='video-status';status.setAttribute('role','status');status.textContent=zh?'点击播放视频。':'Play the video.';video.insertAdjacentElement('afterend',status);
+ video.addEventListener('loadedmetadata',()=>{if(Number.isFinite(video.duration))status.textContent=zh?'片长 '+video.duration.toFixed(1)+' 秒 · 可使用时间轴跳转。':'Duration '+video.duration.toFixed(1)+' s · Use the timeline to navigate.';});
+ video.addEventListener('error',()=>{status.dataset.error='true';status.textContent=zh?'视频加载失败，请重试或直接打开文件。':'Video could not load. Retry or open the file directly.';});
+ video.addEventListener('playing',()=>{status.textContent=zh?'正在播放':'Playing';});
+ const source=video.querySelector('source')?.getAttribute('src')||video.getAttribute('src');if(source){const link=document.createElement('a');link.href=source;link.textContent=zh?'打开视频 ↗':'Open video ↗';link.className='media-caption';link.target='_blank';link.rel='noopener noreferrer';status.insertAdjacentElement('afterend',link);}
+});
+const filter=document.querySelector('#matrix-filter');if(filter)filter.addEventListener('input',()=>{const query=filter.value.toLowerCase();document.querySelectorAll('#matrix tbody tr').forEach(row=>{row.hidden=!row.textContent.toLowerCase().includes(query);});});
+})();
