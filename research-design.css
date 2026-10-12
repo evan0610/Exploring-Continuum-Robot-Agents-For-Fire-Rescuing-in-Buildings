@@ -88,3 +88,12 @@ body.research-designed.research-designed figure{margin-inline:auto!important}bod
 @media(max-width:560px){body.research-designed.research-designed .balanced-cards> *{flex-basis:100%!important;max-width:none!important}}
 
 body.research-designed.research-designed .balanced-cards>*{text-align:center!important}body.research-designed.research-designed .balanced-cards p,body.research-designed.research-designed .balanced-cards small{text-align:center!important}
+
+/* Keep the atlas return link reachable on narrow screens. Section links remain in the page menu. */
+@media (max-width:600px){
+ body.research-designed .top-nav .nav-left>a:not([href*="tianchun-research-atlas"]){display:none!important}
+ body.research-designed .top-nav .nav-left{width:auto!important;min-width:0!important;flex:0 1 auto!important;gap:0!important}
+ body.research-designed .top-nav .nav-container{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:8px!important;padding-inline:12px!important}
+ body.research-designed .top-nav .nav-left>a[href*="tianchun-research-atlas"]{display:block!important;position:static!important;white-space:nowrap!important;font-size:12px!important}
+ body.research-designed .top-nav .academic-tools{flex:0 0 auto!important;margin-left:auto!important}
+}
