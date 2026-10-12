@@ -147,3 +147,31 @@ body.research-designed #demos .reading,body.research-designed .section-label{tex
 }
 
 @media(max-width:600px){body.research-designed.research-designed .wrapper{padding:0!important}body.research-designed.research-designed .top-nav,body.research-designed.research-designed .site-header{height:auto!important;min-height:0!important;display:block!important}body.research-designed.research-designed .mobile-section-nav{background:var(--research-paper)!important;width:100%!important;box-sizing:border-box!important;position:static!important}body.research-designed.research-designed .top-nav .nav-container{min-height:50px!important}}
+
+/* Shared centered composition across all breakpoints. */
+body.research-designed.research-designed .section-top p,
+body.research-designed.research-designed .section-head p,
+body.research-designed.research-designed .section-heading p,
+body.research-designed.research-designed main p,
+body.research-designed.research-designed .visual-copy,
+body.research-designed.research-designed .reading,
+body.research-designed.research-designed .academic-eyebrow,
+body.research-designed.research-designed .equation,
+body.research-designed.research-designed .publication{text-align:center!important}
+body.research-designed.research-designed main h4,
+body.research-designed.research-designed main caption{text-align:center!important}
+body.research-designed.research-designed .number,
+body.research-designed.research-designed .step-number{display:table!important;float:none!important;margin-inline:auto!important;text-align:center!important}
+body.research-designed.research-designed .repo-row{display:flex!important;flex-direction:column!important;align-items:center!important;gap:10px!important;text-align:center!important}
+body.research-designed.research-designed .repo-row p{margin:0 auto!important;max-width:70ch!important}
+body.research-designed.research-designed .actions,
+body.research-designed.research-designed .research-jump-nav{justify-content:center!important;text-align:center!important}
+body.research-designed.research-designed .publication{align-items:center!important;justify-content:center!important}
+body.research-designed.research-designed .source{display:table!important;margin:16px auto!important;text-align:center!important}
+body.research-designed.research-designed .table-scroll,
+body.research-designed.research-designed .table-wrap{margin-inline:auto!important}
+@media(max-width:600px){
+body.research-designed.research-designed .mobile-section-nav{justify-content:center!important;flex-wrap:wrap!important;white-space:normal!important;gap:7px 16px!important;overflow:visible!important;padding:8px 12px!important}
+body.research-designed.research-designed .mobile-section-nav a{text-align:center!important}
+body.research-designed.research-designed .publication{flex-direction:column!important}
+}
