@@ -97,3 +97,23 @@ body.research-designed.research-designed .balanced-cards>*{text-align:center!imp
  body.research-designed .top-nav .nav-left>a[href*="tianchun-research-atlas"]{display:block!important;position:static!important;white-space:nowrap!important;font-size:12px!important}
  body.research-designed .top-nav .academic-tools{flex:0 0 auto!important;margin-left:auto!important}
 }
+
+/* Paired original demos: centered media with preserved frame proportions. */
+body.research-designed #demos .section-head{display:block!important;text-align:center!important}
+body.research-designed #demos .tabs{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:12px!important;margin:24px auto!important}
+body.research-designed #demos .tabs button{flex:0 1 190px!important;margin:0!important;padding:14px 18px!important;text-align:center!important;border:1px solid var(--research-line)!important;border-radius:12px!important;background:var(--research-paper)!important;color:var(--research-ink)!important}
+body.research-designed #demos .tabs button[aria-pressed=true]{background:var(--research-ink)!important;color:#fff!important;border-color:var(--research-ink)!important}
+body.research-designed #demos .demo-header,body.research-designed #demos .stage-head{text-align:center!important}
+body.research-designed #demos .video-pair{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;max-width:1000px!important;margin:20px auto 36px!important}
+body.research-designed #demos .video-card{margin:0!important;padding:14px!important;border:1px solid var(--research-line)!important;border-radius:16px!important;min-width:0!important;background:#fff!important}
+body.research-designed #demos .video-surface{height:340px!important;min-height:0!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#182825!important;border-radius:10px!important;overflow:hidden!important}
+body.research-designed #demos .video-card video{display:block!important;width:100%!important;max-width:100%!important;height:340px!important;object-fit:contain!important;margin:0 auto!important;border:0!important;box-shadow:none!important}
+body.research-designed #demos .task-sequence{display:block!important;max-width:900px!important;margin:24px auto!important;text-align:center!important}
+body.research-designed #demos .task-sequence ol{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:12px!important;padding:0!important;list-style-position:inside!important}
+body.research-designed #demos .task-sequence li{flex:0 1 250px!important;margin:0!important;text-align:center!important}
+@media(max-width:600px){body.research-designed #demos .tabs button{flex:0 1 calc(50% - 8px)!important;padding:12px 8px!important}body.research-designed #demos .video-pair{grid-template-columns:1fr!important;gap:20px!important}body.research-designed #demos .video-surface,body.research-designed #demos .video-card video{height:300px!important}}
+
+body.research-designed #demos .tabs button[aria-pressed=true] strong{color:#fff!important}
+body.research-designed #demos .stage-head{display:block!important;text-align:center!important}
+body.research-designed #demos .stage-number{display:block!important;text-align:center!important}
+body.research-designed #demos .reading,body.research-designed .section-label{text-align:center!important;max-width:800px!important;margin-inline:auto!important}
